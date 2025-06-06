@@ -83,3 +83,21 @@ crashlytics-build.properties
 /[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db.meta
 /[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers
 /[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers.meta
+
+# Jetbrains Rider
+/[Aa]ssets/Plugins/Editor/JetBrains*
+.idea/
+
+# Audio backups
+*.wav.backup
+*.mp3.backup
+*.ogg.backup
+
+# Chart editor temp files  
+/StreamingAssets/Charts/*.tmp
+
+# Unity Addressables
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+
+# Custom project files
+UserSettings/
